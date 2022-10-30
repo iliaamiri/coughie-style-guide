@@ -45,3 +45,61 @@ p {
 .nav-menu ul li {
   padding: 0 1em;
 }
+/* Icon */
+main h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+main p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+div.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em 0;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.icon-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+}
+
+.icon-item p {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
