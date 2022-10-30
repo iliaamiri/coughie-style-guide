@@ -72,4 +72,12 @@ main p {
     height: 100px;
   }
 
+  .others p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+
   
