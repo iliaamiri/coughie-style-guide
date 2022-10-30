@@ -1,26 +1,8 @@
 
-
-p {
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 10px;
-  margin: 20px;
-}
-
-h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 10px;
-  margin: 20px;
-}
-img {
+.color-palette-img {
   max-width: 100%;
-  padding: 10px;
-  margin: 5px;
-}
-.color {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin-right: 20px;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .color_left {
@@ -29,6 +11,8 @@ img {
 
 .color_right {
   flex: 1;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .color-box {
@@ -37,12 +21,14 @@ img {
   justify-content: space-between;
   align-items: start;
   border-bottom: 1px solid #c5c5c5;
-  padding: 10px;
-  margin: 10px;
+  padding: 0.6rem;
+  margin: 0.6rem;
 }
 
 img.color-palette-img {
   width: 320px;
+  padding: 0.6rem;
+  margin: 0.3rem;
 }
 
 footer {
