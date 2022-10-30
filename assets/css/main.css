@@ -10,11 +10,9 @@ html, body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #333;
-  /*background-color: #fcfcfc;*/
+  background-color: #fcfcfc;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
-  background-color: #EAF7FB;
-
 }
 
 a {
@@ -25,6 +23,10 @@ a {
 
 h1 {
   color: #81CBAC;
+  padding: 0.3rem 0 1.2rem 0 ;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
 }
 
 .container {
@@ -94,13 +96,6 @@ footer {
 }
 
 /* Icon */
-main h1 {
-  font-size: 2em;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
 main p {
   font-size: 1.2em;
   font-weight: 400;
