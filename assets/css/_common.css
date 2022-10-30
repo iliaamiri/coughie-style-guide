@@ -21,10 +21,20 @@ a {
 
 h1 {
   color: #81CBAC;
-  padding: 0.3rem 0 1.2rem 0 ;
+  padding: 0.3rem 0 1.2rem 0;
   font-size: 2em;
-  font-weight: 700;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', 'Lato', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.24rem;
+}
+
+p, b, li, a {
+  font-family: "Lato", sans-serif;
 }
 
 /* Library */
@@ -37,6 +47,9 @@ h1 {
 
 .flex {
   display: flex;
+}
+.flex-1 {
+  flex: 1;
 }
 .justify-content-center {
   justify-content: center;
@@ -73,7 +86,86 @@ h1 {
 .p-3 {
   padding: 3rem;
 }
+.pl-1 {
+  padding-left: 1rem;
+}
+.pb-3 {
+  padding-bottom: 3rem;
+}
 
+.fsiz-2-5 {
+  font-size: 2.5rem;
+}
+
+.br-1 {
+  border-right: 1px solid #c5c5c5;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+.no-caps {
+  text-transform: none;
+}
+.no-line-space {
+  letter-spacing: inherit;
+}
+
+.text-81CBAC {
+  color: #81CBAC;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-primary {
+  background-color: #81CBAC;
+}
+.btn-primary:hover {
+  background-color: #63bea2;
+}
+
+.btn.btn-secondary {
+  color: #333;
+  background-color: #CCEBF6;
+}
+.btn-secondary:hover {
+  background-color: #b5e0eb;
+}
+
+.btn.btn-tertiary {
+  background-color: #c5c5c5;
+}
+
+.btn.btn-primary.btn-outline {
+  background-color: transparent;
+  border: 1px solid #81CBAC;
+  color: #81CBAC;
+}
+.btn.btn-primary.btn-outline:hover {
+  background-color: #81CBAC;
+  color: #fff;
+}
+
+.btn.btn-secondary.btn-outline {
+  background-color: transparent;
+  border: 1px solid #CCEBF6;
+  color: #CCEBF6;
+}
+.btn.btn-secondary.btn-outline:hover {
+  background-color: #CCEBF6;
+  color: #333;
+}
 
 .container {
   width: 85%;
@@ -151,4 +243,11 @@ nav img{
 /* when clicked on hamburger menu, nav bar opens */
 .hamburger-menu:hover + .nav-menu ul {
   display: flex;
+}
+
+footer {
+  padding: 5rem;
+  text-align: center;
+  color: #63bea2;
+  letter-spacing: 0.2rem;
 }
